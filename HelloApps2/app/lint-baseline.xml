@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issues format="6" by="lint 7.4.2" type="baseline" client="gradle" dependencies="false" name="AGP (7.4.2)" variant="fatal" version="7.4.2">
+
+    <issue
+        id="Instantiatable"
+        message="`tab5` must extend android.app.Activity"
+        errorLine1="            android:name=&quot;.tab5&quot;"
+        errorLine2="                          ~~~~~">
+        <location
+            file="src/main/AndroidManifest.xml"
+            line="36"
+            column="27"/>
+    </issue>
+
+    <issue
+        id="Instantiatable"
+        message="`tab4` must extend android.app.Activity"
+        errorLine1="            android:name=&quot;.tab4&quot;"
+        errorLine2="                          ~~~~~">
+        <location
+            file="src/main/AndroidManifest.xml"
+            line="39"
+            column="27"/>
+    </issue>
+
+    <issue
+        id="Instantiatable"
+        message="`tab3` must extend android.app.Activity"
+        errorLine1="            android:name=&quot;.tab3&quot;"
+        errorLine2="                          ~~~~~">
+        <location
+            file="src/main/AndroidManifest.xml"
+            line="42"
+            column="27"/>
+    </issue>
+
+    <issue
+        id="Instantiatable"
+        message="`tab2` must extend android.app.Activity"
+        errorLine1="            android:name=&quot;.tab2&quot;"
+        errorLine2="                          ~~~~~">
+        <location
+            file="src/main/AndroidManifest.xml"
+            line="45"
+            column="27"/>
+    </issue>
+
+    <issue
+        id="Instantiatable"
+        message="`tab1` must extend android.app.Activity"
+        errorLine1="            android:name=&quot;.tab1&quot;"
+        errorLine2="                          ~~~~~">
+        <location
+            file="src/main/AndroidManifest.xml"
+            line="48"
+            column="27"/>
+    </issue>
+
+</issues>

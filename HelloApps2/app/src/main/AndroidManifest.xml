@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <!-- Izin untuk mengatur alarm -->
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.HelloApps2"
+        tools:targetApi="34">
+        <activity
+            android:name=".komedi"
+            android:exported="true" />
+        <activity
+            android:name=".sahabat"
+            android:exported="true" />
+        <activity
+            android:name=".ilmiah"
+            android:exported="true" />
+        <activity
+            android:name=".horor"
+            android:exported="true"/>
+        <activity
+            android:name=".aksi"
+            android:exported="true"/>
+        <activity
+            android:name=".tab5"
+            android:exported="true" />
+        <activity
+            android:name=".tab4"
+            android:exported="true" />
+        <activity
+            android:name=".tab3"
+            android:exported="true" />
+        <activity
+            android:name=".tab2"
+            android:exported="true" />
+        <activity
+            android:name=".tab1"
+            android:exported="true" />
+        <activity
+            android:name=".fragmentab"
+            android:exported="true" />
+        <activity
+            android:name=".AktivitasDua"
+            android:exported="true" />
+        <activity
+            android:name=".AktivitasSatu"
+            android:exported="true" />
+        <activity
+            android:name=".AktivAlarm2"
+            android:exported="true">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver android:name=".MyBroadcastReceiver" />
+
+        <activity
+            android:name=".AktivitasKalender"
+            android:exported="false"/>
+        <activity
+            android:name=".AktivitasFibonacci"
+            android:exported="true" />
+        <activity
+            android:name=".AktivitasUI"
+            android:exported="true" />
+        <activity
+            android:name=".AktivitasSianida"
+            android:exported="true" />
+        <activity
+            android:name=".AktivitasLogo"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AktivitasMap"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <data android:scheme="geo" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AktivitasHallo"
+            android:exported="true" />
+    </application>
+
+</manifest>
